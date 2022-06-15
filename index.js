@@ -5,7 +5,7 @@ const app = express();
 
 const staticFolder = express.static(path.join(__dirname, 'public'))
 app.use(staticFolder)
-
+asdasdasdasdasd
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, 'public/index.html'));
 })
